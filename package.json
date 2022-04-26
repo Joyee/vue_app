@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "deploy:test": "./deploy-test.sh",
-    "build:test": "vue-cli-service build",
+    "deploy": "node ./deploy npm_package_version=0.0.1",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "postversion": "npm run deploy"
   },
   "dependencies": {
     "core-js": "^3.6.5",
