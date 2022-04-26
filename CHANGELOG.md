@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/Joyee/vue_app/compare/v0.2.0...v0.3.0) (2022-04-26)
+
+
+### Features
+
+* **1111:** 11111 ([595d5e4](https://github.com/Joyee/vue_app/commit/595d5e4fcabbe6ab3384f8978389280ebc19216a))
+
+
+
 # 0.2.0 (2022-04-26)
 
 
