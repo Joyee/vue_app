@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/Joyee/vue_app/compare/v0.4.0...v0.5.0) (2022-04-26)
+
+
+### Features
+
+* **deploy.js:** change deploy.js ([dae5b84](https://github.com/Joyee/vue_app/commit/dae5b847b8f07b2b43f2463362bd36f5c825299f))
+
+
+
 # [0.4.0](https://github.com/Joyee/vue_app/compare/v0.3.0...v0.4.0) (2022-04-26)
 
 
