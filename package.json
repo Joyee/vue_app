@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "deploy": "node ./deploy npm_package_version=0.0.1",
+    "deploy": "node ./deploy",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
