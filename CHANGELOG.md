@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/Joyee/vue_app/compare/v0.3.0...v0.4.0) (2022-04-26)
+
+
+### Features
+
+* **change:** change ([ed10e0d](https://github.com/Joyee/vue_app/commit/ed10e0d774420e74ca1da670bdf3fbb5ae69f371))
+
+
+
 # [0.3.0](https://github.com/Joyee/vue_app/compare/v0.2.0...v0.3.0) (2022-04-26)
 
 
