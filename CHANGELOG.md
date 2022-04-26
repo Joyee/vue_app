@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/Joyee/vue_app/compare/v0.1.0...v0.5.0) (2022-04-26)
+
+
+### Features
+
+* **change deploy.sh:** change deploy.sh ([86d3193](https://github.com/Joyee/vue_app/commit/86d3193acb87dfee5d47f274c6573216510ebf42))
+
+
+
 # [0.4.0](https://github.com/Joyee/vue_app/compare/v0.1.0...v0.4.0) (2022-04-26)
 
 
