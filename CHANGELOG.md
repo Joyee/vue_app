@@ -1,3 +1,12 @@
+# [0.7.0](https://github.com/Joyee/vue_app/compare/v0.6.0...v0.7.0) (2022-04-26)
+
+
+### Features
+
+* **deploy.sh:** deploy.sh ([92dacab](https://github.com/Joyee/vue_app/commit/92dacaba1d7ab41b516e12094ce1c451647ad4b7))
+
+
+
 # [0.6.0](https://github.com/Joyee/vue_app/compare/v0.1.0...v0.6.0) (2022-04-26)
 
 
