@@ -5,7 +5,8 @@
   "scripts": {
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "deploy": "node deploy",
+    "build:prod": "vue-cli-service build",
+    "deploy": "vue-cli-service serve",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "postversion": "npm run deploy"
   },

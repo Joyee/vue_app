@@ -1,0 +1,27 @@
+workflow:
+  rules:
+    - if: '$CI_COMMIT_REF_NAME === "master"'
+
+stages:
+  - build
+  - deploy
+
+# build阶段 执行构建任务
+build_prod:
+  stage: build
+  cache:
+    key: build_prod
+    paths:
+      - node_modules/
+  script:
+    - yarn install
+    - yarn build:prod
+  artifacts:
+    paths:
+      - dist
+
+# 执行部署任务
+deploy_prod:
+  stage: deploy
+  script:
+    - scp -r $CI_PROJECT_DIR root@49.233.26.253:/usr/share/nginx/html
